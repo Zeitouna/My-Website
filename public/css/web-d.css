@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "nunito";
+  color: #a2e0eb;
+  background-color: #195863;
+}
+
+/* VIDEO BACKGROUND */
+
+#myVideo {
+  position: fixed;
+  z-index: -1;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  transform: scaleY(1.1);
+  z-index: -1;
+  margin-top: 50px;
+}
+.card {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #303030;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  flex: 25%;
+  max-width: 25%;
+}
+@media screen and (max-width: 650px) {
+  .row {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 60%;
+    padding-top: 45px;
+  }
+}
+/* 
+.col {
+  border-style: solid;
+  border-color: palegreen;
+} */
+
+.topnav {
+  background-color: transparent;
+}
+
+h5 {
+  font-family: "nunito";
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: white;
+}
+
+.card .card-action {
+  background-color: #303030c2;
+}
+.card-action {
+  border-radius: 10px 10px 0px 0px;
+}
+
+#try {
+  background-color: #303030;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .card-action:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.active {
+  background-color: #303030;
+}
