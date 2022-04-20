@@ -142,6 +142,8 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
+  text-decoration: underline;
+  padding-bottom: 20px;
 }
 
 .section__title {
@@ -168,10 +170,11 @@ h3 {
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
   padding: 0.25em;
+  border-radius: 3px;
 }
 
 .about-me {
-  background-color: #16e0be75;
+  background-image: linear-gradient(90deg, #46726b9e 50%, #16e0be9e 50%);
 }
 
 /*header*/
@@ -421,31 +424,4 @@ button:hover {
 
 #links {
   color: #16e0bd;
-}
-
-.render {
-  display: flex;
-  flex-direction: row;
-  width: 30%;
-  flex: 25%;
-  max-width: 25%;
-}
-@media screen and (max-width: 650px) {
-  .render img {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 60%;
-    padding-top: 45px;
-  }
-}
-
-.render img {
-  /* max-width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0em; */
-  border-style: solid;
-  border-color: red;
-  width: 100%;
 }

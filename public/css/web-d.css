@@ -23,7 +23,7 @@ body {
 }
 .card {
   border-radius: 10px 10px 10px 10px;
-  background-color: #303030;
+  background-color: #303030a9;
 }
 
 .row {
@@ -64,7 +64,7 @@ h5 {
 }
 
 .card .card-action {
-  background-color: #303030c2;
+  background-color: #484848c2;
 }
 .card-action {
   border-radius: 10px 10px 0px 0px;
@@ -80,5 +80,5 @@ h5 {
 }
 
 .active {
-  background-color: #303030;
+  background-color: #303030c2;
 }
