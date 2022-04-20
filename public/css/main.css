@@ -36,10 +36,10 @@ body {
   #myVideo {
     display: none;
   }
-  body {
+  /* body {
     background: url("poster.jpg");
     background-size: cover;
-  }
+  } */
 }
 
 /*MY SECTION*/
@@ -100,7 +100,7 @@ section {
   max-width: 100%;
   border-radius: 10px;
   border-style: solid;
-  border-color: #16e0bd;
+  border-color: #e01616;
 }
 
 strong {
