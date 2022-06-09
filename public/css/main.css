@@ -430,3 +430,13 @@ button:hover {
 #links {
   color: #16e0bd;
 }
+
+.social-media {
+  position: absolute;
+  border-style: solid;
+  border-color: red;
+}
+
+.column-1 {
+  color: red;
+}
