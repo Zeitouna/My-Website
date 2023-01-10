@@ -2,15 +2,11 @@ body {
   margin: 0;
   font-family: "nunito";
   color: #a2e0eb;
-  background-color: #195863;
+  background-image: url(../images/background2.png);
 }
 
 /* VIDEO BACKGROUND */
 
-#myVideo {
-  position: fixed;
-  z-index: -1;
-}
 .cards {
   display: flex;
   flex-direction: row;
@@ -37,7 +33,7 @@ body {
   .row {
     -ms-flex: 100%;
     flex: 100%;
-    max-width: 60%;
+    max-width: 80%;
     padding-top: 45px;
   }
 }

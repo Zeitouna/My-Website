@@ -17,25 +17,27 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <video autoplay muted loop id="myVideo" poster="poster.jpg">
+    <!-- <video autoplay muted loop id="myVideo" poster="poster.jpg">
       <source src="./public/video/website-blue.mp4" type="video/mp4" />
-    </video>
+    </video> -->
+    <!-- <img src="./public/images/background.png" class="brot" /> -->
   </head>
   <body>
     <!--NAVBAR-->
     <!-- <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">SAYE</a>
-       <a href="projects.html">Projects</a> -->
-    <!-- <a href="#contact">Contact</a>
-      <a href="about.html">About</a> -->
-    <!-- <a
+      <div class="logo-image">
+        <img src="./public/images/logo/linkedin.png" class="img-fluid" />
+      </div>
+      <a href="projects.html">Github</a>
+      <a href="#contact">linkedin</a>
+      <a
         href="javascript:void(0);"
         style="font-size: 15px"
         class="icon"
         onclick="myFunction()"
         >&#9776;</a
-      > -->
-    <!-- </div> -->
+      >
+    </div> -->
 
     <!--INTRODUCTION-->
     <section class="intro" id="home">
@@ -43,9 +45,14 @@
         Hi, my name is <strong>Olivier R.Measson </strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro">
-        "Stay Aggressiv Yet Elegant"
+        There is no perfection. Only perfecting.
       </p>
       <img src="./public/images/olime.JPG" id="image" class="intro__img" />
+      <!-- <section class="social-media">
+        <div class="column-1">LINKEDIN</div>
+        <div class="column-1">GITHUB</div>
+        <div class="column-1">EMAIL</div>
+      </section> -->
     </section>
     <!-- <section class="logos">
       <img class="column1" src="./public/images/logo/gmail.png" id="gmail" />
@@ -85,31 +92,40 @@
         </div>
       </div>
     </div> -->
+
     <section class="my-services" id="services">
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
-          <h3>Transportation Designer</h3>
+          <h3 class="color-btn">
+            <a id="links" href="public/pdf/OlivierR.Measson_Portfolio_2022.pdf">
+              Transportation Designer</a
+            >
+          </h3>
           <p>
-            Having always been fascinated by the complexity from all types of
-            design but mostly vehicles I graduated from a bachelor degree in
-            "Transportation Design" at Istituo Europeo de Diseni.
-            <a
+            Since my childhood I have been fascinated by Design in general. I
+            graduated from a bachelor degree in "Product - Itinerary
+            Transportation Design" at Istituo Europeo de Diseni.
+            <!-- <a
               id="links"
               href="public/pdf/OlivierR.Measson_DigitalPortFolio.pdf"
-              ><h4>PORTFOLIO</h4></a
-            >
+              ><p id="btn-port">PORTFOLIO</p></a
+            > -->
           </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3>Web Developer</h3>
+          <h3 class="color-btn">
+            <a id="links" href="web-development.html">Web Developer</a>
+          </h3>
           <p>
             During my bachelor degree in Transportation Design I learned how
             important the use of data is and will be. Fascinated by it, I took a
             bootcamp as a Full Stack Developer at ESMT Berlin.
-            <a id="links" href="web-development.html"><h4>DEPLOYED APPS</h4></a>
+            <!-- <a id="links" href="web-development.html"
+              ><p id="btn-app">DEPLOYED APPS</p></a
+            > -->
           </p>
         </div>
 
@@ -122,20 +138,21 @@
     <section class="about-me" id="about">
       <header>
         <h2 class="section__title section_title--about">Who I am</h2>
+
         <p class="section__subtitle section__subtitle--about"></p>
       </header>
 
       <div class="about-me__body">
+        <a
+          id="links"
+          href="./public/pdf/OlivierR.Measson_Curriculum-Vitae_2022.pdf"
+          ><h3>Curriculum Vitae</h3></a
+        >
         <p>
           Everybody is a nobody but nobody is like everybody. Just like design
           we each have our flaws and our strengh. My flaw but also my strengh is
-          that I sometimes just stop in the middle of the street and disapear
-          into the magic humans have created. This made me realize that I needed
-          to contribute to the excellence past generation have made for us, so
-          that I can give it to the next one.
-          <a id="links" href="./CurriculumVitae.pdf"
-            ><h4>Curriculum Vitae</h4></a
-          >
+          that I sometime just stop in the middle of the street and disapear
+          into the magic humans have created.
         </p>
       </div>
     </section>
