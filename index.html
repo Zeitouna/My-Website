@@ -24,10 +24,12 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <div class="topnav" id="myTopnav">
-      <a href="projects.html">Github</a> -->
+    <!-- <div class="topnav" id="myTopnav">
+      <div class="logo-image">
+        <img src="./public/images/logo/linkedin.png" class="img-fluid" />
+      </div>
+      <a href="projects.html">Github</a>
       <a href="#contact">linkedin</a>
-      <a href="about.html"></a>
       <a
         href="javascript:void(0);"
         style="font-size: 15px"
@@ -35,7 +37,7 @@
         onclick="myFunction()"
         >&#9776;</a
       >
-    </div>
+    </div> -->
 
     <!--INTRODUCTION-->
     <section class="intro" id="home">
@@ -95,27 +97,35 @@
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
-          <h3>Transportation Designer</h3>
+          <h3 class="color-btn">
+            <a id="links" href="public/pdf/OlivierR.Measson_Portfolio_2022.pdf">
+              Transportation Designer</a
+            >
+          </h3>
           <p>
             Since my childhood I have been fascinated by Design in general. I
             graduated from a bachelor degree in "Product - Itinerary
             Transportation Design" at Istituo Europeo de Diseni.
-            <a
+            <!-- <a
               id="links"
               href="public/pdf/OlivierR.Measson_DigitalPortFolio.pdf"
-              ><h4>PORTFOLIO</h4></a
-            >
+              ><p id="btn-port">PORTFOLIO</p></a
+            > -->
           </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3>Web Developer</h3>
+          <h3 class="color-btn">
+            <a id="links" href="web-development.html">Web Developer</a>
+          </h3>
           <p>
             During my bachelor degree in Transportation Design I learned how
             important the use of data is and will be. Fascinated by it, I took a
             bootcamp as a Full Stack Developer at ESMT Berlin.
-            <a id="links" href="web-development.html"><h4>DEPLOYED APPS</h4></a>
+            <!-- <a id="links" href="web-development.html"
+              ><p id="btn-app">DEPLOYED APPS</p></a
+            > -->
           </p>
         </div>
 
@@ -128,18 +138,21 @@
     <section class="about-me" id="about">
       <header>
         <h2 class="section__title section_title--about">Who I am</h2>
+
         <p class="section__subtitle section__subtitle--about"></p>
       </header>
 
       <div class="about-me__body">
+        <a
+          id="links"
+          href="./public/pdf/OlivierR.Measson_Curriculum-Vitae_2022.pdf"
+          ><h3>Curriculum Vitae</h3></a
+        >
         <p>
           Everybody is a nobody but nobody is like everybody. Just like design
           we each have our flaws and our strengh. My flaw but also my strengh is
           that I sometime just stop in the middle of the street and disapear
           into the magic humans have created.
-          <a id="links" href="./public/pdf/OlivierR.Measson-CurriculumVitae.pdf"
-            ><h4>Curriculum Vitae</h4></a
-          >
         </p>
       </div>
     </section>

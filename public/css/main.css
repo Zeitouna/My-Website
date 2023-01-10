@@ -142,7 +142,7 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
-  text-decoration: underline;
+
   padding-bottom: 20px;
 }
 
@@ -170,7 +170,7 @@ h3 {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  padding: 0.25em;
+  padding: 0.2em;
   border-radius: 3px;
 }
 
@@ -300,7 +300,7 @@ button:hover {
 }
 
 .section__title--services {
-  color: var(--clr-accent);
+  color: var(--clr-light);
   position: relative;
 }
 
@@ -332,6 +332,9 @@ button:hover {
   .service + .service {
     margin-left: 7em;
   }
+}
+.color-btn {
+  color: var(--clr-accent);
 }
 
 /* .row {
@@ -431,12 +434,22 @@ button:hover {
   color: #16e0bd;
 }
 
-.social-media {
+/* .social-media {
   position: absolute;
   border-style: solid;
   border-color: red;
 }
 
 .column-1 {
+  color: red;
+} */
+
+/* .logo-image {
+  transform: scale(0.05);
+  width: 46px;
+  height: 46px;
+} */
+
+#btn-port {
   color: red;
 }
