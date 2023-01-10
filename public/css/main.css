@@ -431,12 +431,11 @@ button:hover {
 }  */
 
 #links {
-  color: #16e0bd;
+  color: #20a58f;
 }
 
 #links:hover {
-  color: #67f3b2;
-  font-size: 27px;
+  color: #16e0bd;
 }
 
 /* .social-media {
