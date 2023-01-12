@@ -431,6 +431,10 @@ button:hover {
 }  */
 
 #links {
+  color: #20a58f;
+}
+
+#links:hover {
   color: #16e0bd;
 }
 
