@@ -5,11 +5,16 @@ body {
   width: 100%;
   height: 100vh;
 }
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
 
+/*
 body {
   margin: 0;
   font-family: "nunito";
-}
+} */
 
 /* VIDEO BACKGROUND */
 
@@ -52,7 +57,7 @@ body {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+  margin: 10;
   padding: 0;
   text-decoration: none;
 }
@@ -60,8 +65,8 @@ body {
 /* Custom Properties */
 
 :root {
-  --ff-primary: "nunito", sans-serif;
-  --ff-secondary: "nunito", sans-serif;
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Inter", sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -78,9 +83,9 @@ body {
 
 @media (min-width: 800px) {
   :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
+    --fs-h1: 3.75rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1rem;
     --fs-body: 1.115rem;
   }
 }
@@ -278,13 +283,12 @@ button:hover {
   }
 
   .section__subtitle--intro {
-    align-self: start;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
-    position: relative;
-    left: -1.5em;
-    width: calc(100% + 1.5em);
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+    padding: 1.2em 6em;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1.5;
   }
 }
 
@@ -320,7 +324,7 @@ button:hover {
 }
 
 .service {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 @media (min-width: 1000px) {
   .services {
@@ -431,11 +435,14 @@ button:hover {
 }  */
 
 #links {
-  color: #20a58f;
+  background-color: #20a58f3c;
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 #links:hover {
-  color: #16e0bd;
+  color: #00ffd5;
 }
 
 /* .social-media {
@@ -453,6 +460,23 @@ button:hover {
   width: 46px;
   height: 46px;
 } */
+
+#links2 {
+  display: inline-block;
+  background-color: var(--clr-accent);
+  color: white;
+  padding: 0.3em 0.6em;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: var(--ff-secondary);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+#links2:hover {
+  background-color: #0fbd9c;
+}
 
 #btn-port {
   color: red;
